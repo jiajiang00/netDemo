@@ -29,6 +29,7 @@ namespace netDemo
         {
             if (env.IsDevelopment())
             {
+                
                 app.UseBrowserLink();
                 app.UseDeveloperExceptionPage();
             }
